@@ -136,6 +136,9 @@ LOCK TABLES `usuario` WRITE;
 INSERT INTO `usuario` VALUES ('2024-11-07',1,NULL,NULL,NULL,'admin@example.com','$2a$10$O.uaQvR4bPHC0rN8QpAG0u645UcUDvp99OIlGvnZPBjWHUDaP0Ddu','ADMIN','admin',0),('2024-11-07',2,'calahorra','Madrid','28032','james200327@gmail.com','$2a$10$mgBeZ9TolZRUX0IWcAqsAuwdaZ.I3K1w3jtYvkZvNdbsTZk.GY/Nq','USER','james',0),('2024-11-09',3,'Calahorra','Madrid','28032','johan2003@gmail.com','$2a$10$7Jh5n8hyIa.RhGfnm9rLnuEPIQebTr1ohEONMA2Xh2G6mST8v5eWW','USER','Johan',0),('2024-11-12',4,'calle','madrid','28017','javi@gmail.com','$2a$10$FNQQwlI1pz5tzPAuy8LaVeK5UbAsUExut2TgKPXnGfoMzWE6y8a86','USER','javi',2000),('2024-11-14',5,'calle','madrid','28017','kkkkl@msn.com','$2a$10$AnV4pcQqCgSrf0K.LnrDIeanCWSf8yyvVAXhUcACIMaBUyMyUcssm','USER','javikkkk',0),('2024-11-17',6,'violetera','madrid','28018','jorgeucheee97@gmail.com','$2a$10$1156zdRAzOtuTI.V1R23BeXjEoAyGM6AqmLeiO3EwBYARc4wzEczK','USER','jorge',0);
 /*!40000 ALTER TABLE `usuario` ENABLE KEYS */;
 UNLOCK TABLES;
+
+UPDATE comic SET activo = 1;
+
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
