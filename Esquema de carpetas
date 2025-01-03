@@ -1,0 +1,29 @@
+/Webcomic
+│
+├── backend/  (Proyecto Spring Boot)
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── com/example/project/   (Paquetes Java)
+│   │   │   │       ├── controller/        (Controladores REST)
+│   │   │   │       ├── service/           (Lógica de Negocio)
+│   │   │   │       ├── repository/        (Acceso a Datos, JPA Repositories)
+│   │   │   │       └── model/             (Entidades de la base de datos)
+│   │   │   ├── resources/
+│   │   │   │   ├── application.properties  (Configuración de Spring Boot)
+│   │   │   │   └── static/                (Archivos estáticos, si aplicable)
+│   │   └── test/                          (Tests unitarios/integración)
+│   ├── pom.xml                            (Para proyectos Maven)
+│   └── build.gradle                       (Si usas Gradle)
+│
+└── frontend/  (Proyecto React)
+    ├── public/                            (Archivos públicos, HTML principal)
+    ├── src/
+    │   ├── components/                    (Componentes de React)
+    │   ├── services/                      (Funciones para llamar a APIs)
+    │   ├── pages/                         (Páginas que agrupan componentes)
+    │   ├── App.js                         (Componente raíz de React)
+    │   └── index.js                       (Punto de entrada del frontend)
+    ├── package.json                       (Dependencias de React)
+    └── .env                               (Configuración para la API, si aplicable)
+
