@@ -1,0 +1,107 @@
+.fm-section {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem 8rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  .fm-logo{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+  }
+  img{
+    border-radius: 50px;
+  }
+  
+  .fm-h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .fm-google-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #444;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 16px;
+  
+  }
+  
+  .fm-google-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .fm-divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .fm-line {
+    flex: 1;
+    border: 0;
+    height: 1px;
+    background: #ddd;
+  }
+  
+  .fm-divider-text {
+    margin: 0 10px;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .fm-div-info {
+    margin-bottom: 20px;
+  }
+  
+  .fm-label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .fm-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .fm-button {
+    width: 100%;
+    padding: 15px 10px;
+    background:#FF6000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .fm-button:hover {
+    background-color: #e0474c;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}

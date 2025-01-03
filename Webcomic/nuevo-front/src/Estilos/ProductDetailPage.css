@@ -1,0 +1,135 @@
+.product-detail {
+    padding: 20px;
+}
+
+.breadcrumb {
+    font-size: 14px;
+    color: #555;
+    padding-bottom: 20px;
+}
+.breadcrumb span{
+    cursor: pointer;
+}
+
+.breadcrumb span:hover{
+    color: orange;
+}
+
+.product-main {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.product-images{
+    width: 30%;
+}
+
+.product-images img {
+    width: 100%;
+    height: auto;
+}
+
+.thumbnail-gallery {
+    display: flex;
+    gap: 5px;
+}
+
+.product-info{
+    width: 40%;
+   /* display: flex;
+    flex-direction: column;
+    align-items: center;*/
+    box-shadow: 0 0.10rem 1rem rgba(0, 0, 0, 0.1); /* 0px 4px 8px -> 0 0.25rem 0.5rem */
+    padding: 1rem;
+    border-radius: 3%;
+}
+
+.product-info h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+}
+
+.product-description{
+    padding-top: 20px;
+}
+.product-description h2{
+    color: orange;
+}
+
+.product-addcontainer{
+    box-shadow: 0 0.10rem 1rem rgba(0, 0, 0, 0.1); /* 0px 4px 8px -> 0 0.25rem 0.5rem */
+    padding: 2rem;
+    width: 30%;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rating, .price, .model-selection, .add-to-cart {
+    margin: 10px 10px;
+}
+.price{
+    display: flex;
+    padding: 1rem;
+}
+.price span {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 5px;
+}
+.price img{
+    border-radius: 30%; 
+    width: 2.5rem;
+}
+
+.model-option {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    cursor: pointer;
+}
+
+.add-to-card {
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.delivery-info{
+    font-weight: bold;
+}
+
+.product-description, .product-opinions {
+    margin-top: 20px;
+}
+
+.opinion-summary {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.opinion {
+    margin-top: 10px;
+}
+
+.pros-cons {
+    list-style: none;
+    padding: 0;
+}
+
+.pros-cons li {
+    font-size: 14px;
+}
+

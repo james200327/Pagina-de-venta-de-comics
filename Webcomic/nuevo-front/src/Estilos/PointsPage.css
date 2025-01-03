@@ -1,0 +1,57 @@
+/* src/App.css */
+.PointsPage {
+    text-align: center;
+    background-color: #eee;
+    color: orange;
+    padding: 1.25rem; /* 20px -> 1.25rem */
+}
+
+/* src/components/PaymentMethods.css */
+.payment-methods {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.625rem; /* 10px -> 0.625rem */
+    padding: 0.625rem; /* 10px -> 0.625rem */
+}
+
+.payment-methods-img {
+    height: 10vh;
+    cursor: pointer;
+}
+
+.points-options{
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a una nueva fila si no hay espacio suficiente */
+    gap: 1rem; /* Espacio entre los elementos */
+    justify-content: space-between;
+}
+
+
+/* src/components/PointsSelection.css */
+.points-selection {
+    padding: 1.25rem; /* 20px -> 1.25rem */
+}
+
+.points-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+/* Pantallas medianas: 2 elementos por fila */
+@media (max-width: 768px) {
+    .purchase-option {
+        flex-basis: 45%; /* Cada elemento ocupa inicialmente el 45% del ancho del contenedor */
+        max-width: 45%; /* Aseguramos que no crezca más del 45% */
+    }
+}
+
+/* Pantallas pequeñas: 1 elemento por fila */
+@media (max-width: 480px) {
+    .purchase-option {
+        flex-basis: 100%; /* Cada elemento ocupa inicialmente el 100% del ancho */
+        max-width: 100%;
+    }
+}

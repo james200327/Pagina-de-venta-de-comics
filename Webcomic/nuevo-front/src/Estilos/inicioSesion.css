@@ -1,0 +1,30 @@
+.fm-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 25rem; /* Tamaño para pantallas grandes */
+  padding: 2rem 8rem; /* Espaciado para pantallas grandes */
+  border: 0.063rem solid #ddd;
+  border-radius: 0.5rem;
+  box-shadow: 0rem 0.25rem 0.375rem rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+/* Ajustes para tablets */
+@media (max-width: 768px) {
+  .fm-section {
+    max-width: 30rem; /* Más ancho para tablets */
+    padding: 2rem 4rem; /* Reducimos un poco el padding */
+  }
+}
+
+/* Ajustes para móviles */
+@media (max-width: 480px) {
+  .fm-section {
+    max-width: 100%; /* Ocupa todo el ancho */
+    width: 100%; /* Asegura el 100% del ancho del contenedor */
+    padding: 1.5rem; /* Reducimos aún más el padding */
+    border-radius: 0; /* Opcional: Quitar bordes redondeados en móviles */
+  }
+}

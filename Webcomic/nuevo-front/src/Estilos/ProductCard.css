@@ -1,0 +1,102 @@
+.product-card {
+  border: 0.063rem solid #e0474c; /* 1px -> 0.063rem */
+  border-radius: 0.5rem; /* 8px -> 0.5rem */
+  padding: 1.5rem; /* 10px -> 1.5rem (ajustado a 1.5rem para coherencia) */
+  text-align: center;
+  width: 12vw;
+  margin: 0.625rem; /* 10px -> 0.625rem */
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1); /* 0px 4px 8px -> 0 0.25rem 0.5rem */
+  max-height: 200vh;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); /* 0 8px 16px -> 0 0.5rem 1rem */
+  z-index: 10;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+}
+
+.product-name {
+  font-size: 1rem; /* 16px -> 1rem */
+  margin: 0.625rem 0; /* 10px 0 -> 0.625rem 0 */
+  color: #333;
+}
+.product-card:hover .product-name {
+  color: #ff6600; /* Cambia el color al pasar el mouse, por ejemplo */
+}
+
+.div-product-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-price {
+  font-size: 1.125rem; /* 18px -> 1.125rem */
+  color: #333;
+}
+
+.product-infinitypoints-img {
+  width: 1.5rem;
+  border-radius: 30%;
+  padding: 0.5rem;
+}
+
+.product-rating {
+  font-size: 0.875rem; /* 14px -> 0.875rem */
+  color: #555;
+}
+
+.product-delivery {
+  font-size: 0.875rem; /* 14px -> 0.875rem */
+  color: green;
+  margin-top: 0.625rem; /* 10px -> 0.625rem */
+}
+
+.estrellas {
+  color: #FFA90D;
+  margin-right: 1rem;
+}
+
+.img-delivery {
+  height: 1.25rem; /* 20px -> 1.25rem */
+  margin-right: 0.625rem; /* 10px -> 0.625rem */
+}
+
+.div-delivery {
+  display: flex;
+  align-items: center;
+}
+
+.product-card-delete{
+    background-color: orange;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border-color: #ddd;
+}
+
+.product-card-delete{
+    background-color: #e0474c;
+}
+
+.product-card-edit{
+  background-color: orange;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border-color: #ddd;
+}
+
+.product-card-edit{
+  background-color: #e0474c;
+}

@@ -1,0 +1,132 @@
+
+h2{
+    color: orange;
+    text-align: center;
+    font-size: 30px;
+}
+.main-div-info{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.div-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%;
+    width: 30%;
+    padding: 20px;
+}
+strong{
+    font-size: 17px;
+}
+p{
+    color: #888;
+    font-size: 17px;
+}
+
+.div-buttons{
+    margin-top: 50px;
+    display: flex;
+     justify-content: center;
+
+}
+
+.button-user{
+    background-color: orange;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.7rem 3rem;
+    border: #888;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.button-user:hover{
+    background-color: #e0474c;
+}
+
+/*pedidos*/
+
+
+.userprofile-pedidos {
+    padding: 20px;
+    background-color: #f9f9f9; /* Fondo claro */
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    max-height: 80vh; /* Limita la altura máxima al 80% de la pantalla */
+    overflow-y: auto; /* Habilita el scroll vertical */
+    border: 1px solid #ddd; /* Borde para separar el contenedor */
+  }
+  
+  .pedidos-items {
+    display: flex;
+    flex-direction: column; /* Alinea los pedidos en una columna */
+    gap: 16px; /* Espaciado entre las tarjetas de pedidos */
+  }
+  
+  .pedido-card {
+    border: 1px solid black; /* Borde gris claro */
+    border-radius: 8px; /* Esquinas redondeadas */
+    background-color: #fdddca; /* Fondo blanco */
+    padding: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para un efecto elegante */
+  }
+  
+  .pedido-card h3 {
+    font-size: 1.2rem;
+    color: #333; /* Título oscuro */
+    margin-bottom: 8px;
+  }
+  
+  .pedido-card p {
+    margin: 4px 0; /* Espaciado vertical entre párrafos */
+    color: #555; /* Texto secundario */
+  }
+  
+  .pedido-comics {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los comics se acomoden en varias filas si son muchos */
+    gap: 16px; /* Espaciado entre los elementos */
+    margin-top: 12px;
+  }
+  
+  .pedido-comics img {
+    width: 80px; /* Tamaño de las imágenes */
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .datos-pedidos-realizados{
+    display: flex;
+    align-items: self-start;
+    flex-direction: column;
+  }
+
+
+  .datos-pedidos-realizados p {
+    margin: 0; /* Sin margen extra */
+    font-size: 0.9rem;
+    color: #444;
+  }
+  
+  .pedido-comics strong {
+    color: #000; /* Negrita más destacada */
+  }
+  
+  .userprofile-pedidos::-webkit-scrollbar {
+    width: 8px; /* Ancho del scroll */
+  }
+  
+  .userprofile-pedidos::-webkit-scrollbar-thumb {
+    background-color: #bbb; /* Color del scroll */
+    border-radius: 4px;
+  }
+  
+  .userprofile-pedidos::-webkit-scrollbar-thumb:hover {
+    background-color: #888; /* Color al pasar el mouse */
+  }
+  

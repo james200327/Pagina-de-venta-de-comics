@@ -1,0 +1,109 @@
+
+.purchase-option {
+    flex-basis: 30%; /* Cada elemento ocupa inicialmente el 30% del contenedor */
+    max-width: 30%; /* Aseguramos que no crezca más del 30% */
+    background: #1c1e21;
+    padding: 0.625rem;
+    border-radius: 0.625rem;
+    color: white;
+    text-align: center;
+}
+
+.points {
+    font-size: 1.125rem; /* 18px -> 1.125rem */
+    font-weight: bold;
+    padding: 1rem 0rem;
+    flex-grow: 1; /* Opcional: Esto permite que ocupe espacio adicional */
+    text-align: center; /* Centrar contenido */
+}
+
+.points-price {
+    font-size: 1rem; /* 16px -> 1rem */
+    margin: 0.625rem 0;
+    padding: 0%; /* 10px 0 -> 0.625rem 0 */
+    width: 100%;
+    text-align: right; /* Opcional: Alinear al extremo derecho */
+}
+.points-icon{
+    width: 100%;
+}
+
+.points-icon img{
+    height: 3.300rem; /* 50px -> 3.125rem */
+}
+
+
+
+.buy-button {
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    padding: 0.625rem; /* 10px -> 0.625rem */
+    border-radius: 0.313rem; /* 5px -> 0.313rem */
+    cursor: pointer;
+    width: 100%;
+}
+
+.buy-button:hover {
+    background-color: #ff2626;
+}
+
+/* Contenedor del formulario */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaciado entre filas */
+}
+
+/* Estilo para los labels */
+.custom-label {
+    text-align: left; /* Alineación a la izquierda */
+    font-weight: bold; /* Texto en negrita */
+    color: #333; /* Color del texto */
+    margin-bottom: 5px; /* Espaciado debajo del label */
+}
+
+/* Estilo para los inputs */
+.custom-input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-size: 14px;
+}
+
+/* Estilo para el popup */
+.custom-popup {
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Estilo para el título */
+.custom-title {
+    color: orange;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Botón de confirmación */
+.custom-confirm-button {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Botón de cancelar */
+.custom-cancel-button {
+    background-color: #f44336;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

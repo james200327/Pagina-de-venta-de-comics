@@ -1,0 +1,86 @@
+/* 
+COLOR PRINCIPAL
+rgb(255, 115, 0) */
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+header{
+    background-color: rgb(255, 115, 0);
+    display: flex;
+    position: sticky;
+    z-index: 10;
+   justify-content: end;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo{
+    width: 20%; 
+    background-color: white;
+    display: flex;
+    padding: 1%;
+    margin-left: 10%;
+}
+
+#botonBuscar, #botonCuenta, #botonCarrito{
+    width: 3%;
+    
+    
+    
+}
+
+#botonCuenta, #botonCarrito{
+    margin-right: 3%;
+}
+
+#botonCuenta{
+    margin-left: 6%;
+}
+
+#barraBuscar{
+    width: 40vw;
+    
+    padding: 0.5%;
+    
+    
+}
+img{
+    width: 100%;
+    
+}
+
+nav{
+    display: flex;
+    margin-left: 40vh;
+}
+
+
+/*Categoria*/
+
+.categoria{
+    width: 90%;
+    float: right;
+    margin-top:5%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+}
+
+.caja-texto{
+    background-color: rgb(255, 115, 0);
+    width: 15%;
+    padding: 0.5%;
+
+    margin-bottom: 1%;
+}
+
+.container-comics{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10%;
+    padding-top: 2%;
+    border-top: 7px solid black;
+}
